@@ -1,0 +1,46 @@
+.logo-img {
+    height: 178px;
+    
+}
+.nav-item {
+    /*для пунктів меню*/
+    background-color: rgb(160, 82, 82);
+    margin-right: 5px;
+}
+.nav-item .nav-link {
+    /* для написів меню */
+    color: white !important;
+}
+body{
+    background: linear-gradient(to bottom,rgb(154, 154, 154),rgb(79, 138, 151),rgb(158, 97, 157));
+}
+h2{
+    text-align: center;
+}
+.img{
+    width: 100%;
+}
+.my-rotate{
+  transition: 0.8s;
+}
+.my-rotate:hover{
+transform: rotate(360deg);
+}
+footer{
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    margin-top: 50px;
+    color: gray;
+}
+.socio-link{
+    font-size: 4.3rem;
+    color: lightgray;
+    text-decoration: none;
+    transition: 0.5s;
+    margin-right: 20px;
+}
+.socio-link:hover{
+    color: aqua;
+    text-shadow: 0px 0px 7px white;
+}
